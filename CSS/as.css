@@ -1,0 +1,44 @@
+.h1{
+    background-color:blue;
+    position: h1;
+    top:20px solid red;
+    
+}
+
+.container{
+    align-self: auto;
+    width:40vw;
+    height:80vh;
+    border:1px solid;
+    
+}
+h1:nth-child(1){
+    padding:30px;
+    margin:0px;
+    text-align:center;
+}
+h5:nth-child(2){
+    padding:0px;
+    margin:0px;
+    text-align:center;
+}
+
+.cls1{
+    align-self: auto;
+    width:40vw;
+    height:100vh;
+    border:1px solid;
+}
+
+.ques1{
+    align-self: auto;
+    width:40vw;
+    height:30vh;
+    border:1px solid;
+
+}
+#head {
+    border: 3px solid red;
+    padding: 15px 1px;   
+    
+}

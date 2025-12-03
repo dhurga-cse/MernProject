@@ -8,17 +8,17 @@
     <meta name="author" content="Dhurga "/>
     </head>
     <body>
-        <h1>MY HTML-only Website </h1>
+        <h1 id="Home">MY HTML-only Website </h1>
         <h2>Simple Site build using only Html tags --no CSS</h2>
         <ul>
-        <li><a href="Home"> Home</a></li>
-        <li><a href="About">About</a></li>
-        <li><a href="Features">Features</a></li>
-        <li><a href="Contact">Contact</a></li>
+        <li><a href="#Home"> Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Features">Features</a></li>
+        <li><a href="#Contact">Contact</a></li>
         </ul>
         <h2>Welcome</h2>
         <h4>This page demonstrates layout and contact using <i>only</i> Html tags.Use headings,lists,tables,and forms to present information without CSS.</h4>
-        <h2>About This Page</h2>
+        <h2 id="About">About This Page</h2>
         <h4>The Page uses semantic tags:&lt;head &gt;&lt;header &gt;&lt;main &gt;&lt;nav &gt;</h4>
         <h3>Key Points</h3>
         <ol>
@@ -26,7 +26,7 @@
             <li>No external styles--browser default styles only.</li>
             <li>Words well .</li>
         </ol>
-        <h3>Features (HTML-only)</h3>
+        <h3 id="Features">Features (HTML-only)</h3>
         <dl>
   <dt>Semantic layout</dt>
   <dd>Clear structure using sectioning elements</dd>
@@ -65,12 +65,12 @@
 
         <h3>Quick Links</h3>
         <ul>
-            <li><a href="see features">see features</a></li>
-            <li><a href="contact us">contact us</a></li>
-            <li><a href="more about this demo">more about this demo</a></li>
+            <li><a href="#Features">see features</a></li>
+            <li><a href="#Contact">contact us</a></li>
+            <li><a href="#About">more about this demo</a></li>
         </ul>
 
-        <h3>Contact</h3>
+        <h3 id="Contact">Contact</h3>
         <h5>If you like to get in touch.fill this simple form(no styling)</h5>
         <form action="">
     <fieldset>
